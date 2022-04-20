@@ -3,20 +3,20 @@
 
 #modify values below
 #leave blank if not used
-maintainer="Name (nickname)" #ex: Lup Gabriel (gwolfu)
-oem="OEM" #ex: OnePlus
-device="device codename" #ex: guacamole
-devicename="name of device" #ex: OnePlus 7 Pro
+maintainer="Krell RHEL (WolfAURman)" #ex: Lup Gabriel (gwolfu)
+oem="Xiaomi" #ex: OnePlus
+device="lava" #ex: guacamole
+devicename="Redmi 9" #ex: OnePlus 7 Pro
 zip="crdroid zip" #ex: crDroidAndroid-<android version>-<date>-<device codename>-v<crdroid version>.zip
-buildtype="type" #choose from Testing/Alpha/Beta/Weekly/Monthly
-forum="" #https link (mandatory)
-gapps="" #https link (leave empty if unused)
+buildtype="Monthly" #choose from Testing/Alpha/Beta/Weekly/Monthly
+forum="https://t.me/WolfAURman_Discussion" #https link (mandatory)
+gapps="https://sourceforge.net/projects/nikgapps/files/Releases/NikGapps-R/18-Apr-2022/NikGapps-core-arm64-11-20220418-signed.zip/download" #https link (leave empty if unused)
 firmware="" #https link (leave empty if unused)
 modem="" #https link (leave empty if unused)
 bootloader="" #https link (leave empty if unused)
 recovery="" #https link (leave empty if unused)
 paypal="" #https link (leave empty if unused)
-telegram="" #https link (leave empty if unused)
+telegram="https://t.me/red_hat_interprise13" #https link (leave empty if unused)
 
 #don't modify from here
 script_path="`dirname \"$0\"`"
