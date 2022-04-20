@@ -1,7 +1,7 @@
 Highlights & Device Specific Changes:
 Build type: Monthly
 Device: lava
-Device maintainer: Krel K. aka WolfAURman
+Device maintainer: Krel RHEL aka WolfAURman
 
 ===== <date> =====
 - change 1
