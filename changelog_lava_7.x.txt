@@ -3,5 +3,82 @@ Build type: Monthly
 Device: lava
 Device maintainer: Krel RHEL aka WolfAURman
 
-===== <date> =====
-- change 1
+====================
+     04-21-2022
+====================
+
+====================
+     04-20-2022
+====================
+- Synchronized with the latest sources.
+- Transfer of firmware storage to the repository on github.
+- Adding a full-fledged OTA.
+- Updating the kernel to version 4.14.275.
+- Using PowerHAL Q.
+- Other minor fixes.
+
+   * external/chromium-webview
+0f78a8f Update arm{,64} and x86 Chromium Webview to 100.0.4896.127
+
+====================
+     04-19-2022
+====================
+
+====================
+     04-18-2022
+====================
+
+   * device/xiaomi/mt6768-common
+ca561b7 mt6768-common: Drop HintManager for HWUI
+19fa3d9 mt6768-common: Fall back to Q power hal
+
+   * vendor/xiaomi/lava
+3267af1 lava-vendor: Fall back to Q power hal
+
+====================
+     04-17-2022
+====================
+
+====================
+     04-16-2022
+====================
+
+====================
+     04-15-2022
+====================
+
+   * frameworks/base
+6f45dce8d39 New translations (#819)
+
+   * packages/apps/crDroidSettings
+6b6ea5ea New Crowdin updates (#908)
+
+====================
+     04-14-2022
+====================
+
+====================
+     04-13-2022
+====================
+
+   * bootable/recovery
+40ade344 Merge 'lineage-18.1' into 11.0
+
+   * build/make
+7450a7aee Bump Security String to 2022-04-05
+
+   * packages/apps/Launcher3
+563f0df6f New translations (#220)
+
+   * packages/apps/PermissionController
+a03a82a0a Merge 'lineage-18.1' into 11.0
+
+   * vendor/lineage
+d90783e7 crdroid: Bump to version 7.17
+
+   * vendor/qcom/opensource/commonsys/system/bt
+d557aa600 Security fix OOB read due to invalid count in stack/avrc/avrc_pars_ct
+
+====================
+     04-12-2022
+====================
