@@ -1,1 +1,24 @@
-#New
+{
+  "response": [
+    {
+        "maintainer": "Krell RHEL (WolfAURman)",
+        "oem": "Xiaomi",
+        "device": "Redmi 9",
+        "filename": "crDroidAndroid-11.0-20220420-lava-v7.17.zip",
+        "download": "https://sourceforge.net/projects/crdroid/files/lava/7.x/crDroidAndroid-11.0-20220420-lava-v7.17.zip/download",
+        "timestamp": 1650495213,
+        "md5": "632f45fe9d65d3cb48073942651b0439",
+        "size": 918588451,
+        "version": "7.17",
+        "buildtype": "Monthly",
+        "forum": "https://t.me/WolfAURman_Discussion",
+        "gapps": "https://sourceforge.net/projects/nikgapps/files/Releases/NikGapps-R/18-Apr-2022/NikGapps-core-arm64-11-20220418-signed.zip/download",
+        "firmware": "",
+        "modem": "",
+        "bootloader": "",
+        "recovery": "",
+        "paypal": "",
+        "telegram": "https://t.me/red_hat_interprise13"
+    }
+  ]
+}
