@@ -5,7 +5,7 @@
         "oem": "Xiaomi",
         "device": "Redmi 9",
         "filename": "crDroidAndroid-11.0-20220420-lava-v7.17.zip",
-        "download": "https://sourceforge.net/projects/crdroid/files/lava/7.x/crDroidAndroid-11.0-20220420-lava-v7.17.zip/download",
+        "download": "https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-11.0-20220420-lava-v7.17/crDroidAndroid-11.0-20220420-lava-v7.17.zip",
         "timestamp": 1650495213,
         "md5": "632f45fe9d65d3cb48073942651b0439",
         "size": 918588451,
