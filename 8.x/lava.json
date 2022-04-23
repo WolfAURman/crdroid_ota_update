@@ -1,1 +1,28 @@
-#New
+{
+  "response": [
+    {
+        "maintainer": "Krell RHEL (WolfAURman)",
+        "oem": "Xiaomi",
+        "device": "lava",
+        "filename": "crDroidAndroid-12.1-20220421-lava-v8.4.zip",
+        "download": "https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-12.1-20220421-lava-v8.4/crDroidAndroid-12.1-20220421-lava-v8.4.zip",
+        "timestamp": 1650563186,
+        "md5": "dc0230eb9285e0e121476a49bd01ec8c",
+        "sha256": "9a33ca03c8c7a1912d6c13f12bc3265aad6cb4b0d846cb01cc3e891c254362fd",
+        "size": 1049637705,
+        "version": "8.4",
+        "buildtype": "Monthly",
+        "forum": "https://t.me/WolfAURman_Discussion",
+        "gapps": "https://sourceforge.net/projects/nikgapps/files/Releases/NikGapps-SL/21-Apr-2022/NikGapps-core-arm64-12.1-20220421-signed.zip/download",
+        "firmware": "",
+        "modem": "",
+        "bootloader": "",
+        "recovery": "",
+        "paypal": "",
+        "telegram": "https://t.me/red_hat_interprise13",
+        "dt": "",
+        "common-dt": "",
+        "kernel": ""
+    }
+  ]
+}
