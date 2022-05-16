@@ -3,9 +3,9 @@
 
 #modify values below
 #leave blank if not used
-maintainer="Name (nickname)" #ex: Lup Gabriel (gwolfu)
-oem="OEM" #ex: OnePlus
-device="device codename" #ex: guacamole
+maintainer="Krell RHEL (WolfAURman)" #ex: Lup Gabriel (gwolfu)
+oem="Xiaomi" #ex: OnePlus
+device="lava" #ex: guacamole
 devicename="name of device" #ex: OnePlus 7 Pro
 zip="crdroid zip" #ex: crDroidAndroid-<android version>-<date>-<device codename>-v<crdroid version>.zip
 buildtype="type" #choose from Testing/Alpha/Beta/Weekly/Monthly
