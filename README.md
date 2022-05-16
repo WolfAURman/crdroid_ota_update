@@ -1,4 +1,4 @@
-## Unoffcial CrDroid OTA update. ##
+# Unoffcial CrDroid OTA update. #
 
 ## Creating json ##
 
