@@ -1,7 +1,7 @@
-Unoffcial CrDroid OTA update.
-##
-Fork from [CrDroid](https://github.com/crdroidandroid/android_vendor_crDroidOTA)
-##
+## Unoffcial CrDroid OTA update. ##
+
+## Creating json ##
+
 We put create json.sh to the home folder with your source code. Example: ~/android/crdroidx.x
 
 Then make the file executable:
@@ -14,3 +14,6 @@ After that, run it:
 ```
 
 Get the devicename output.json, mission accomplished!
+
+##
+Fork from [CrDroid](https://github.com/crdroidandroid/android_vendor_crDroidOTA)
