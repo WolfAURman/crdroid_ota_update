@@ -3,5 +3,24 @@ Build type: Monthly
 Device: lava
 Device maintainer: Krel K. aka WolfAURman
 
-===== <date> =====
-- change 1
+===== 15.05.2022 =====
+- Synchronized with the latest sources
+- Upstream kernel 4.14.277 pizza
+- Switching to another tree (in previous builds, my modified one was used. Power Hal Q remained as well as other useful commits)
+- Update blobs etc.
+- Security patch for May 2022
+
+===== 21.04.2022 =====
+- Synchronized with the latest sources
+- Upstream kernel 4.14.275 pizza
+- Added PowerHAL Q (and also other useful commits from github pixel were taken)
+- Added a full-fledged independent OTA
+
+===== 09.04.2022 =====
+- Synchronized with the latest sources
+- Security patch from April
+- initial build
+- vanilla build
+- Volte Fix
+- Ims Fix
+- Use kernel version 4.14.271 pizza
