@@ -3,7 +3,7 @@
     {
         "maintainer": "Krell RHEL (WolfAURman)",
         "oem": "Xiaomi",
-        "device": "name of device",
+        "device": "Redmi 9",
         "filename": "crDroidAndroid-12.1-20220612-lava-v8.6.zip",
         "download": "https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-12.1-20220612-lava-v8.6/crDroidAndroid-12.1-20220612-lava-v8.6.zip",
         "timestamp": 1655062689,
@@ -11,7 +11,7 @@
         "sha256": "dfa5c17cb71d89614c658229116e5da907affed51803bc5710496e150a63a97f",
         "size": 1078842906,
         "version": "8.6",
-        "buildtype": "type",
+        "buildtype": "Monthly",
         "forum": "https://t.me/WolfAURman_Discussion",
         "gapps": "https://sourceforge.net/projects/nikgapps/files/Releases/NikGapps-SL/21-Apr-2022/NikGapps-core-arm64-12.1-20220421-signed.zip/download",
         "firmware": "",
