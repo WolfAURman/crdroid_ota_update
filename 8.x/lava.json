@@ -19,7 +19,7 @@
         "bootloader": "",
         "recovery": "",
         "paypal": "",
-        "telegram": "",
+        "telegram": "https://t.me/red_hat_interprise13",
         "dt": "https://github.com/Redmi-MT6768/android_device_xiaomi_lava",
         "common-dt": "",
         "kernel": "https://github.com/Redmi-MT6768/android_kernel_xiaomi_mt6768"
