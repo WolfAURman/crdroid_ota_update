@@ -6,20 +6,20 @@
 maintainer="Krell RHEL (WolfAURman)" #ex: Lup Gabriel (gwolfu)
 oem="Xiaomi" #ex: OnePlus
 device="lava" #ex: guacamole
-devicename="name of device" #ex: OnePlus 7 Pro
+devicename="Redmi 9" #ex: OnePlus 7 Pro
 zip="crdroid zip" #ex: crDroidAndroid-<android version>-<date>-<device codename>-v<crdroid version>.zip
-buildtype="type" #choose from Testing/Alpha/Beta/Weekly/Monthly
-forum="" #https link (mandatory)
-gapps="" #https link (leave empty if unused)
+buildtype="Monthly" #choose from Testing/Alpha/Beta/Weekly/Monthly
+forum="https://t.me/WolfAURman_Discussion" #https link (mandatory)
+gapps="https://sourceforge.net/projects/nikgapps/files/Releases/NikGapps-SL/09-Jul-2022/NikGapps-core-arm64-12.1-20220709-signed.zip/download" #https link (leave empty if unused)
 firmware="" #https link (leave empty if unused)
 modem="" #https link (leave empty if unused)
 bootloader="" #https link (leave empty if unused)
 recovery="" #https link (leave empty if unused)
 paypal="" #https link (leave empty if unused)
-telegram="" #https link (leave empty if unused)
-dt="" #https://github.com/crdroidandroid/android_device_<oem>_<device_codename>
+telegram="https://t.me/red_hat_interprise13" #https link (leave empty if unused)
+dt="https://github.com/Redmi-MT6768/android_device_xiaomi_lava" #https://github.com/crdroidandroid/android_device_<oem>_<device_codename>
 commondt="" #https://github.com/crdroidandroid/android_device_<orm>_<SOC>-common
-kernel="" #https://github.com/crdroidandroid/android_kernel_<oem>_<SOC>
+kernel="https://github.com/Redmi-MT6768/android_kernel_xiaomi_mt6768" #https://github.com/crdroidandroid/android_kernel_<oem>_<SOC>
 
 
 #don't modify from here
