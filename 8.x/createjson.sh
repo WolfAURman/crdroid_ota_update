@@ -18,7 +18,7 @@ recovery="" #https link (leave empty if unused)
 paypal="" #https link (leave empty if unused)
 telegram="https://t.me/red_hat_interprise13" #https link (leave empty if unused)
 dt="https://github.com/Redmi-MT6768/android_device_xiaomi_lava" #https://github.com/crdroidandroid/android_device_<oem>_<device_codename>
-commondt="" #https://github.com/crdroidandroid/android_device_<orm>_<SOC>-common
+commondt="https://github.com/Redmi-MT6768/android_device_xiaomi_mt6768-common" #https://github.com/crdroidandroid/android_device_<orm>_<SOC>-common
 kernel="https://github.com/Redmi-MT6768/android_kernel_xiaomi_mt6768" #https://github.com/crdroidandroid/android_kernel_<oem>_<SOC>
 
 
