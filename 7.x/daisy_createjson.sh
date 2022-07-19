@@ -5,7 +5,7 @@
 #leave blank if not used
 maintainer="Krell RHEL (WolfAURman)" #ex: Lup Gabriel (gwolfu)
 oem="Xiaomi" #ex: OnePlus
-device="Daisy" #ex: guacamole
+device="daisy" #ex: guacamole
 devicename="Mi A2 Lite" #ex: OnePlus 7 Pro
 zip="crDroidAndroid-11.0-20220718-daisy-v7.20.zip" #ex: crDroidAndroid-<android version>-<date>-<device codename>-v<crdroid version>.zip
 buildtype="Monthly" #choose from Testing/Alpha/Beta/Weekly/Monthly
