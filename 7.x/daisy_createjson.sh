@@ -61,4 +61,3 @@ echo '{
     }
   ]
 }' >> $device.json
-Footer
