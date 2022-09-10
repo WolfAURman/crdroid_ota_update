@@ -3,6 +3,36 @@ Build type: Monthly
 Device: lava
 Device maintainer: Krel K. aka WolfAURman
 
+===== 07.09.2022 =====
+- Synchronized with the latest sources
+- Security patch for August 2022
+- Other minor fixes
+- New S vendor
+- initial build for S vendor
+- Add OTA update
+
+===== 13.08.2022 =====
+- Synchronized with the latest sources
+- Upstream kernel 4.14.290 pizza
+- Update blobs etc.
+- Security patch for August 2022
+- Other minor fixes
+
+===== 15.07.2022 =====
+- Synchronized with the latest sources
+- Upstream kernel 4.14.287 pizza
+- Update blobs etc.
+- Security patch for Jul 2022
+- Other minor fixes
+- https://crdroid.net/blog/2022-07-14-crDroid-8.7
+
+===== 12.06.2022 =====
+- Synchronized with the latest sources
+- Upstream kernel 4.14.282 pizza
+- Update blobs etc.
+- Security patch for June 2022
+- Other minor fixes
+
 ===== 15.05.2022 =====
 - Synchronized with the latest sources
 - Upstream kernel 4.14.277 pizza
