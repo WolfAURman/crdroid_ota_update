@@ -1,1 +1,18 @@
-#test changelog
+Highlights & Device Specific Changes:
+Build type: Monthly
+Device: daisy
+Device maintainer: Krel RHEL aka WolfAURman
+
+===== 29.08.2022 =====
+- Vanilla build
+- Use kernel 4.9.312 sleepy
+- Security patch for August 2022
+
+===== 18.07.2022 =====
+- Vanilla build
+- Use kernel 4.9.312 sleepy
+- Security patch for Jul 2022
+- Initial build
+- Added OTA update
+- Disable LTO in sleepy_defconfig
+- Disable custom clang  
