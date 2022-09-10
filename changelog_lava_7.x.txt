@@ -3,6 +3,26 @@ Build type: Monthly
 Device: lava
 Device maintainer: Krel RHEL aka WolfAURman
 
+===== 17.08.2022 =====
+- Synchronized with the latest sources
+- Upstream kernel 4.14.290 pizza
+- Security patch for August 2022
+- Other minor fixes
+
+===== 16.07.2022 =====
+- Synchronized with the latest sources
+- Upstream kernel 4.14.287 pizza
+- Update dt
+- Security patch for Jul 2022
+- Other minor fixes
+
+===== 15.06.2022 =====
+- Synchronized with the latest sources
+- Upstream kernel 4.14.282 pizza
+- Update blobs etc.
+- Security patch for June 2022
+- Other minor fixes
+
 ===== 16.05.2022 =====
 - Synchronized with the latest sources.
 - Updating the kernel to version 4.14.277.
