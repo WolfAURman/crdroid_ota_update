@@ -17,5 +17,9 @@ After that, run it:
 
 Get the devicename output.json, mission accomplished!
 
+## automatic uploading using a script
+
+copy the file ```auto_createjson_for_lava.sh``` to your working source folder, make it executable ```chmod +x auto_createjson_for_lava.sh``` and then run it ```./auto_createjson_for_lava.sh```
+
 ##
 Fork from [CrDroid](https://github.com/crdroidandroid/android_vendor_crDroidOTA)
