@@ -8,11 +8,11 @@ oem="Xiaomi" #ex: OnePlus
 device="daisy" #ex: guacamole
 devicename="Mi A2 Lite" #ex: OnePlus 7 Pro
 ##
-zip=$(basename out/target/product/lava/crDroidAndroid-12.1-*-*-*.zip)
-nozip=$(basename out/target/product/lava/crDroidAndroid-12.1-*-*-*.zip .zip)
+zip=$(basename out/target/product/daisy/crDroidAndroid-12.1-*-daisy-*.zip)
+nozip=$(basename out/target/product/daisy/crDroidAndroid-12.1-*-daisy-*.zip .zip)
 time=$(cat out/build_date.txt)
 date=$(echo $zip | cut -f3 -d '-')
-ver=$(echo $zip | cut -b 36-38)
+ver=$(echo $zip | cut -b 36-39)
 here=$(pwd)
 ##
 buildtype="Monthly" #choose from Testing/Alpha/Beta/Weekly/Monthly
