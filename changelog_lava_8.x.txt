@@ -3,6 +3,10 @@ Build type: Monthly
 Device: lava
 Device maintainer: Krel K. aka WolfAURman
 
+==
+Thank you very much rozenov!
+==
+
 ===== 07.09.2022 =====
 - Synchronized with the latest sources
 - Security patch for August 2022
