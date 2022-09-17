@@ -3,6 +3,10 @@ Build type: Monthly
 Device: lava
 Device maintainer: Krel RHEL aka WolfAURman
 
+==
+Thank you very much rozenov!
+==
+
 ===== 17.08.2022 =====
 - Synchronized with the latest sources
 - Upstream kernel 4.14.290 pizza
