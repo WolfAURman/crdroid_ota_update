@@ -3,6 +3,10 @@ Build type: Monthly
 Device: daisy
 Device maintainer: Krel RHEL aka WolfAURman
 
+==
+Thank you very much rozenov!
+==
+
 ===== 29.08.2022 =====
 - Vanilla build
 - Use kernel 4.9.312 sleepy
