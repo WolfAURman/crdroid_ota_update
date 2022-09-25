@@ -1,1 +1,28 @@
-#TEST for lava 9.x
+{
+  "response": [
+    {
+        "maintainer": "Krell RHEL (WolfAURman)",
+        "oem": "Xiaomi",
+        "device": "Redmi 9",
+        "filename": "crDroidAndroid-13.0-20220925-lava-v9.0.zip",
+        "download": "https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-13.0-20220925-lava-v9.0/crDroidAndroid-13.0-20220925-lava-v9.0.zip",
+        "timestamp": 1664123262,
+        "md5": "6b39acfd0ab093461973c88c2f527286",
+        "sha256": "e20c35b96a0989c81b2162a1e77af12313e989c78a342561f4d53ef4341ce4e5",
+        "size": 996411058,
+        "version": "9.0",
+        "buildtype": "Monthly",
+        "forum": "https://t.me/WolfAURman_Discussion",
+        "gapps": "https://sourceforge.net/projects/nikgapps/files/Releases/NikGapps-T/08-Sep-2022/NikGapps-core-arm64-13-20220908-signed.zip/download",
+        "firmware": "",
+        "modem": "",
+        "bootloader": "",
+        "recovery": "",
+        "paypal": "",
+        "telegram": "https://t.me/red_hat_interprise13",
+        "dt": "https://github.com/Redmi-MT6768/android_device_xiaomi_lava",
+        "common-dt": "https://github.com/Redmi-MT6768/android_device_xiaomi_mt6768-common",
+        "kernel": "https://github.com/Redmi-MT6768/android_kernel_xiaomi_mt6768"
+    }
+  ]
+}
