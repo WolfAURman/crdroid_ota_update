@@ -8,16 +8,16 @@ oem="Xiaomi" #ex: OnePlus
 device="lava" #ex: guacamole
 devicename="Redmi 9" #ex: OnePlus 7 Pro
 ##
-zip=$(basename out/target/product/lava/crDroidAndroid-12.1-*-lava-*.zip)
-nozip=$(basename out/target/product/lava/crDroidAndroid-12.1-*-lava-*.zip .zip)
+script_path="~/android/crdroid9"
+zip=$(basename out/target/product/lava/crDroidAndroid-13.0-*-lava-*.zip)
+nozip=$(basename out/target/product/lava/crDroidAndroid-13.0-*-lava-*.zip .zip)
 time=$(cat out/build_date.txt)
 date=$(echo $zip | cut -f3 -d '-')
 ver=$(echo $zip | cut -b 36-38)
-here=$(pwd)
 ##
 buildtype="Monthly" #choose from Testing/Alpha/Beta/Weekly/Monthly
 forum="https://t.me/WolfAURman_Discussion" #https link (mandatory)
-gapps="https://sourceforge.net/projects/nikgapps/files/Releases/NikGapps-SL/08-Sep-2022/NikGapps-core-arm64-12.1-20220908-signed.zip/download" #https link (leave empty if unused)
+gapps="https://sourceforge.net/projects/nikgapps/files/Releases/NikGapps-T/08-Sep-2022/NikGapps-core-arm64-13-20220908-signed.zip/download" #https link (leave empty if unused)
 firmware="" #https link (leave empty if unused)
 modem="" #https link (leave empty if unused)
 bootloader="" #https link (leave empty if unused)
@@ -30,13 +30,12 @@ kernel="https://github.com/Redmi-MT6768/android_kernel_xiaomi_mt6768" #https://g
 
 
 #don't modify from here
-script_path="`dirname \"$0\"`"
 zip_name=$script_path/out/target/product/$device/$zip
 buildprop=$script_path/out/target/product/$device/system/build.prop
 
-if [ -f $script_path/$device.json ]; then
-  rm $script_path/$device.json
-fi
+#if [ -f $script_path/$device.json ]; then
+#  rm $script_path/$device.json
+#fi
 
 linenr=`grep -n "ro.system.build.date.utc" $buildprop | cut -d':' -f1`
 timestamp=`sed -n $linenr'p' < $buildprop | cut -d'=' -f2`
@@ -76,16 +75,12 @@ echo '{
         "kernel": "'$kernel'"
     }
   ]
-}' >> ~/crdroid_ota_update/8.x/$device.json
+}' > ~/crdroid_ota_update/9.x/$device.json
 
 ##
-
-cd ~/crdroid_ota_update
 
 git add -A && git commit -m "The configuration has been updated due to version $ver"
 
 git push
 
-gh release create $nozip --notes "Automated release CrDroid for $device $ver $date/$time" $here/out/target/product/$device/$zip
-
-cd $here
+gh release create $nozip --notes "Automated release CrDroid for $device $ver $date/$time" $script_path/out/target/product/$device/$zip
