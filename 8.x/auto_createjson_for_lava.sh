@@ -76,9 +76,13 @@ echo '{
         "kernel": "'$kernel'"
     }
   ]
-}' >> ~/crdroid_ota_update/8.x/$device.json
+}' >> $device.json
 
 ##
+
+rm -rf ~/crdroid_ota_update/8.x/$device.json
+
+cp -R $device.json ~/crdroid_ota_update/8.x
 
 cd ~/crdroid_ota_update
 
