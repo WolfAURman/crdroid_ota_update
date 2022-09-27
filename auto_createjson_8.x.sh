@@ -1,18 +1,18 @@
 #!/bin/bash
-#put script in crDroid source folder, make executable (chmod +x createupdate.sh) and run it (./createupdate.sh)
 
 #modify values below
 #leave blank if not used
 maintainer="Krell RHEL (WolfAURman)" #ex: Lup Gabriel (gwolfu)
-oem="Xiaomi" #ex: OnePlus
-device="daisy" #ex: guacamole
-devicename="Mi A2 Lite" #ex: OnePlus 7 Pro
 ##
-zip=$(basename out/target/product/daisy/crDroidAndroid-12.1-*-daisy-*.zip)
-nozip=$(basename out/target/product/daisy/crDroidAndroid-12.1-*-daisy-*.zip .zip)
+oem="Xiaomi" #ex: OnePlus
+device="lava" #ex: guacamole
+devicename="Redmi 9" #ex: OnePlus 7 Pro
+##
+zip=$(basename out/target/product/$device/crDroidAndroid-12.1-*-$device-*.zip)
+nozip=$(basename out/target/product/$device/crDroidAndroid-12.1-*-$device-*.zip .zip)
 time=$(cat out/build_date.txt)
 date=$(echo $zip | cut -f3 -d '-')
-ver=$(echo $zip | cut -b 36-39)
+ver=$(echo $zip | cut -b 36-38)
 here=$(pwd)
 ##
 buildtype="Monthly" #choose from Testing/Alpha/Beta/Weekly/Monthly
@@ -24,9 +24,9 @@ bootloader="" #https link (leave empty if unused)
 recovery="" #https link (leave empty if unused)
 paypal="" #https link (leave empty if unused)
 telegram="https://t.me/red_hat_interprise13" #https link (leave empty if unused)
-dt="" #https://github.com/crdroidandroid/android_device_<oem>_<device_codename>
-commondt="" #https://github.com/crdroidandroid/android_device_<orm>_<SOC>-common
-kernel="" #https://github.com/crdroidandroid/android_kernel_<oem>_<SOC>
+dt="https://github.com/Redmi-MT6768/android_device_xiaomi_lava" #https://github.com/crdroidandroid/android_device_<oem>_<device_codename>
+commondt="https://github.com/Redmi-MT6768/android_device_xiaomi_mt6768-common" #https://github.com/crdroidandroid/android_device_<orm>_<SOC>-common
+kernel="https://github.com/Redmi-MT6768/android_kernel_xiaomi_mt6768" #https://github.com/crdroidandroid/android_kernel_<oem>_<SOC>
 
 
 #don't modify from here
@@ -80,15 +80,11 @@ echo '{
 
 ##
 
-rm -rf ~/crdroid_ota_update/8.x/$device.json
-
-cp -R $device.json ~/crdroid_ota_update/8.x
+rm -rf ~/crdroid_ota_update/8.x/$device.json && cp $device.json ~/crdroid_ota_update/8.x
 
 cd ~/crdroid_ota_update
 
-git add -A && git commit -m "The configuration has been updated due to version $ver"
-
-git push
+git add -A && git commit -m "The configuration has been updated due to version $ver" && git push
 
 gh release create $nozip --notes "Automated release CrDroid for $device $ver $date/$time" $here/out/target/product/$device/$zip
 
