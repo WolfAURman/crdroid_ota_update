@@ -1,1 +1,15 @@
-#NEW 9.x
+Highlights & Device Specific Changes:
+Build type: Monthly
+Device: lava
+Device maintainer: Krel K. aka WolfAURman
+
+==
+Thank you very much rozenov!
+==
+
+===== 25.09.2022 =====
+- Synchronized with the latest sources
+- Security patch for September 2022
+- Other minor fixes
+- Initial build
+- Vanilla build
