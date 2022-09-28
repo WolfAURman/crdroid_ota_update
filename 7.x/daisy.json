@@ -5,7 +5,7 @@
         "oem": "Xiaomi",
         "device": "Mi A2 Lite",
         "filename": "crDroidAndroid-11.0-20220928-daisy-v7.22.zip",
-        "download": "https://sourceforge.net/projects/crdroid/files/daisy/7.x/crDroidAndroid-11.0-20220928-daisy-v7.22.zip/download",
+        "download": "https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-11.0-20220928-daisy-v7.22/crDroidAndroid-11.0-20220928-daisy-v7.22.zip",
         "timestamp": 1664325431,
         "md5": "5bfcb83aa80e59756c4ea86024e68530",
         "size": 769892861,
