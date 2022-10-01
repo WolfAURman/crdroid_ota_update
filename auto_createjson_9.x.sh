@@ -12,7 +12,6 @@ zip=$(basename out/target/product/$device/crDroidAndroid-13.0-*-$device-*.zip)
 nozip=$(basename out/target/product/$device/crDroidAndroid-13.0-*-$device-*.zip .zip)
 time=$(cat out/build_date.txt)
 date=$(echo $zip | cut -f3 -d '-')
-ver=$(echo $zip | cut -b 36-38)
 here=$(pwd)
 ##
 buildtype="Monthly" #choose from Testing/Alpha/Beta/Weekly/Monthly
@@ -84,8 +83,8 @@ rm -rf ~/crdroid_ota_update/9.x/$device.json && cp $device.json ~/crdroid_ota_up
 
 cd ~/crdroid_ota_update
 
-git add -A && git commit -m "The configuration has been updated due to version $ver" && git push
+git add -A && git commit -m "The configuration has been updated due to version $version" && git push
 
-gh release create $nozip --notes "Automated release CrDroid for $device $ver $date/$time" $here/out/target/product/$device/$zip
+gh release create $nozip --notes "Automated release CrDroid for $device $version $date/$time" $here/out/target/product/$device/$zip
 
 cd $here
