@@ -83,7 +83,7 @@ rm -rf ~/crdroid_ota_update/8.x/$device.json && cp $device.json ~/crdroid_ota_up
 
 cd ~/crdroid_ota_update
 
-git add -A && git commit -m "The configuration has been updated due to version $version for $device" && git push
+git add -A && git commit -m "The configuration has been updated due to version $version for $device $date/$time" && git push
 
 gh release create $nozip --notes "Automated release CrDroid for $device $version $date/$time" $here/out/target/product/$device/$zip
 
