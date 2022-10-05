@@ -1,1 +1,24 @@
-#TEST FOR ONCLITE
+{
+  "response": [
+    {
+        "maintainer": "Krell RHEL (WolfAURman)",
+        "oem": "Xiaomi",
+        "device": "Redmi 7",
+        "filename": "crDroidAndroid-11.0-20221005-onclite-v7.22.zip",
+        "download": "https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-11.0-20221005-onclite-v7.22/crDroidAndroid-11.0-20221005-onclite-v7.22.zip",
+        "timestamp": 1664997414,
+        "md5": "f89edcc99443fc9be0760057b14c15cd",
+        "size": 913247927,
+        "version": "7.22",
+        "buildtype": "Monthly",
+        "forum": "https://t.me/WolfAURman_Discussion",
+        "gapps": "https://sourceforge.net/projects/nikgapps/files/Releases/NikGapps-R/08-Sep-2022/NikGapps-core-arm64-11-20220908-signed.zip/download",
+        "firmware": "",
+        "modem": "",
+        "bootloader": "",
+        "recovery": "",
+        "paypal": "",
+        "telegram": "https://t.me/red_hat_interprise13"
+    }
+  ]
+}
