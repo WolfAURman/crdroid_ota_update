@@ -1,1 +1,16 @@
-#TEST FOR ONCLITE CHANGELOG
+Highlights & Device Specific Changes:
+Build type: Monthly
+Device: Onclite
+Device maintainer: Krel K. aka WolfAURman
+
+==
+Thank you very much rozenov!
+==
+
+===== 05.10.2022 =====
+- Synchronized with the latest sources
+- Security patch for September 2022
+- Initial build
+- Vanilla build
+- Other minor fixes
+- Add OTA Update
