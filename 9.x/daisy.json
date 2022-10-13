@@ -1,1 +1,28 @@
-#For daisy
+{
+  "response": [
+    {
+        "maintainer": "Krell RHEL (WolfAURman)",
+        "oem": "Xiaomi",
+        "device": "Mi A2 Lite",
+        "filename": "crDroidAndroid-13.0-20221013-daisy-v9.0.zip",
+        "download": "https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-13.0-20221013-daisy-v9.0/crDroidAndroid-13.0-20221013-daisy-v9.0.zip",
+        "timestamp": 1665632778,
+        "md5": "df6482314e99e0f04d29da93f73b139e",
+        "sha256": "4f14fd35f1a215c27e84dbc112959cf4e42009e43bab99b0eac213c28c59aa88",
+        "size": 685813676,
+        "version": "9.0",
+        "buildtype": "Monthly",
+        "forum": "https://t.me/WolfAURman_Discussion",
+        "gapps": "https://sourceforge.net/projects/nikgapps/files/Releases/NikGapps-T/08-Sep-2022/NikGapps-core-arm64-13-20220908-signed.zip/download",
+        "firmware": "",
+        "modem": "",
+        "bootloader": "",
+        "recovery": "",
+        "paypal": "",
+        "telegram": "https://t.me/red_hat_interprise13",
+        "dt": "",
+        "common-dt": "",
+        "kernel": ""
+    }
+  ]
+}
