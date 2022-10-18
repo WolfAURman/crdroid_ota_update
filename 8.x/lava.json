@@ -18,7 +18,7 @@
         "modem": "",
         "bootloader": "",
         "recovery": "",
-        "paypal": "",
+        "paypal": "http://paypal.me/rozenov",
         "telegram": "https://t.me/red_hat_interprise13",
         "dt": "https://github.com/Redmi-MT6768/android_device_xiaomi_lava",
         "common-dt": "https://github.com/Redmi-MT6768/android_device_xiaomi_mt6768-common",
