@@ -4,13 +4,13 @@
         "maintainer": "Krell RHEL (WolfAURman)",
         "oem": "Xiaomi",
         "device": "Redmi 9",
-        "filename": "crDroidAndroid-12.1-20220913-lava-v8.9.zip",
-        "download": "https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-12.1-20220913-lava-v8.9/crDroidAndroid-12.1-20220913-lava-v8.9.zip",
-        "timestamp": 1663059241,
-        "md5": "81e823fa83806d670d0a5bd7edb9eb84",
-        "sha256": "c644e883c9d634608d845edcff4b1f4a5c282927618042bde1c862d1ffc8acfe",
-        "size": 1136839628,
-        "version": "8.9",
+        "filename": "crDroidAndroid-12.1-20221018-lava-v8.10.zip",
+        "download": "https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-12.1-20221018-lava-v8.10/crDroidAndroid-12.1-20221018-lava-v8.10.zip",
+        "timestamp": 1666109389,
+        "md5": "3ffe0a861edddeea738b6529acd5895d",
+        "sha256": "ccac2dec2f60d5e494c652431da4b204fe6396e884759e59d8708fb4559c41ab",
+        "size": 1130075842,
+        "version": "8.10",
         "buildtype": "Monthly",
         "forum": "https://t.me/WolfAURman_Discussion",
         "gapps": "https://sourceforge.net/projects/nikgapps/files/Releases/NikGapps-SL/08-Sep-2022/NikGapps-core-arm64-12.1-20220908-signed.zip/download",
@@ -20,9 +20,9 @@
         "recovery": "",
         "paypal": "http://paypal.me/rozenov",
         "telegram": "https://t.me/red_hat_interprise13",
-        "dt": "https://github.com/Redmi-MT6768/android_device_xiaomi_lava",
-        "common-dt": "https://github.com/Redmi-MT6768/android_device_xiaomi_mt6768-common",
-        "kernel": "https://github.com/Redmi-MT6768/android_kernel_xiaomi_mt6768"
+        "dt": "",
+        "common-dt": "",
+        "kernel": ""
     }
   ]
 }
