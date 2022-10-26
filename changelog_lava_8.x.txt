@@ -7,6 +7,21 @@ Device maintainer: Krel K. aka WolfAURman
 Thank you very much rozenov!
 ==
 
+===== 18.10.2022 =====
+Android:
+- Synchronized with the latest sources
+- Security patch for October 2022
+- Other minor fixes
+- Changelog source code 8.10 - https://crdroid.net/blog/2022-10-13-crDroid-8.10-and-crDroid-9-updates
+Launcher:
+- Add new icon for MGC camera - https://github.com/WolfAURman/android_packages_apps_Launcher3/commit/f9cb33a429c64495e29a898851dd052a5c5445d0
+
+===== 13.09.2022 =====
+- Synchronized with the latest sources
+- Security patch for September 2022
+- Other minor fixes
+- Changelog source code 8.9 - https://crdroid.net/blog/2022-09-11-crDroid-8.9
+
 ===== 07.09.2022 =====
 - Synchronized with the latest sources
 - Security patch for August 2022

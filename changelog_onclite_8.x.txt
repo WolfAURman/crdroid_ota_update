@@ -7,6 +7,11 @@ Device maintainer: Krel K. aka WolfAURman
 Thank you very much rozenov!
 ==
 
+===== 13.10.2022 =====
+- Synchronized with the latest sources
+- Security patch for October 2022
+- Other minor fixes
+
 ===== 27.09.2022 =====
 - Synchronized with the latest sources
 - Security patch for September 2022

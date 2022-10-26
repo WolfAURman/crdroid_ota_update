@@ -7,6 +7,18 @@ Device maintainer: Krel RHEL aka WolfAURman
 Thank you very much rozenov!
 ==
 
+===== 23.10.2022 =====
+- Use kernel 4.9.312 sleepy
+- Synchronized with the latest sources
+- October Security Patch
+
+===== 05.10.2022 =====
+- Vanilla build
+- Use kernel 4.9.330 panda (Thx @TogoFire)
+- Security patch for September 2022
+- New device tree (Thx @TogoFire)
+- Build kernel use playgroundtc clang 15
+
 ===== 29.08.2022 =====
 - Vanilla build
 - Use kernel 4.9.312 sleepy

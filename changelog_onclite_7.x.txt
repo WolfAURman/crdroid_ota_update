@@ -7,6 +7,12 @@ Device maintainer: Krel K. aka WolfAURman
 Thank you very much rozenov!
 ==
 
+===== 12.10.2022 =====
+- Synchronized with the latest sources
+- Security patch for October 2022
+- Other minor fixes
+- Switching to another kernel branch (from lineage-18.1 to lineage-19.1)
+
 ===== 05.10.2022 =====
 - Synchronized with the latest sources
 - Security patch for September 2022
