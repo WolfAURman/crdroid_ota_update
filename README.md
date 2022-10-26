@@ -10,18 +10,18 @@
 ## List of all updates for all devices: ##
 
 > Daisy: 
-- [CrDroid 9.x](https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-13.0-20221024-daisy-v9.0/crDroidAndroid-13.0-20221024-daisy-v9.0.zip) | [Changelog](https://github.com/WolfAURman/crdroid_ota_update/blob/master/changelog_daisy_9.x.txt)
-- [CrDroid 8.x](https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-12.1-20221014-daisy-v8.10/crDroidAndroid-12.1-20221014-daisy-v8.10.zip) | [Changelog](https://github.com/WolfAURman/crdroid_ota_update/blob/master/changelog_daisy_8.x.txt)
-- [CrDroid 7.x](https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-11.0-20221023-daisy-v7.23/crDroidAndroid-11.0-20221023-daisy-v7.23.zip) | [Changelog](https://github.com/WolfAURman/crdroid_ota_update/blob/master/changelog_daisy_7.x.txt)
+- [CrDroid 9.x](https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-13.0-20221024-daisy-v9.0/crDroidAndroid-13.0-20221024-daisy-v9.0.zip) | [Changelog](https://github.com/WolfAURman/crdroid_ota_update/blob/master/changelog_daisy_9.x.txt) | [Flash step's list](https://telegra.ph/Flash-steps-Mi-A2-Lite-daisy-07-18)
+- [CrDroid 8.x](https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-12.1-20221014-daisy-v8.10/crDroidAndroid-12.1-20221014-daisy-v8.10.zip) | [Changelog](https://github.com/WolfAURman/crdroid_ota_update/blob/master/changelog_daisy_8.x.txt) | [Flash step's list](https://telegra.ph/Flash-steps-Mi-A2-Lite-daisy-07-18)
+- [CrDroid 7.x](https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-11.0-20221023-daisy-v7.23/crDroidAndroid-11.0-20221023-daisy-v7.23.zip) | [Changelog](https://github.com/WolfAURman/crdroid_ota_update/blob/master/changelog_daisy_7.x.txt) | [Flash step's list](https://telegra.ph/Flash-steps-Mi-A2-Lite-daisy-07-18)
 
 > Lava:
-- [CrDroid 9.x](https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-13.0-20220925-lava-v9.0/crDroidAndroid-13.0-20220925-lava-v9.0.zip) | [Changelog](https://github.com/WolfAURman/crdroid_ota_update/blob/master/changelog_lava_9.x.txt)
-- [CrDroid 8.x](https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-12.1-20221018-lava-v8.10/crDroidAndroid-12.1-20221018-lava-v8.10.zip) | [Changelog](https://github.com/WolfAURman/crdroid_ota_update/blob/master/changelog_lava_8.x.txt)
-- [CrDroid 7.x](https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-11.0-20221018-lava-v7.23/crDroidAndroid-11.0-20221018-lava-v7.23.zip) | [Changelog](https://github.com/WolfAURman/crdroid_ota_update/blob/master/changelog_lava_7.x.txt)
+- [CrDroid 9.x](https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-13.0-20220925-lava-v9.0/crDroidAndroid-13.0-20220925-lava-v9.0.zip) | [Changelog](https://github.com/WolfAURman/crdroid_ota_update/blob/master/changelog_lava_9.x.txt) | [Flash step's list](https://telegra.ph/Flash-steps-Redmi-9-lava-09-07)
+- [CrDroid 8.x](https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-12.1-20221018-lava-v8.10/crDroidAndroid-12.1-20221018-lava-v8.10.zip) | [Changelog](https://github.com/WolfAURman/crdroid_ota_update/blob/master/changelog_lava_8.x.txt) | [Flash step's list](https://telegra.ph/Flash-steps-Redmi-9-lava-09-07)
+- [CrDroid 7.x](https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-11.0-20221018-lava-v7.23/crDroidAndroid-11.0-20221018-lava-v7.23.zip) | [Changelog](https://github.com/WolfAURman/crdroid_ota_update/blob/master/changelog_lava_7.x.txt) | [Flash step's list](https://telegra.ph/Flash-steps-Redmi-9-lava-07-14)
 
 > Onclite
-- [CrDroid 8.x](https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-12.1-20221013-onclite-v8.10/crDroidAndroid-12.1-20221013-onclite-v8.10.zip) | [Changelog](https://github.com/WolfAURman/crdroid_ota_update/blob/master/changelog_onclite_7.x.txt)
-- [CrDroid 7.x](https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-11.0-20221012-onclite-v7.23/crDroidAndroid-11.0-20221012-onclite-v7.23.zip) | [Changelog](https://github.com/WolfAURman/crdroid_ota_update/blob/master/changelog_onclite_8.x.txt)
+- [CrDroid 8.x](https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-12.1-20221013-onclite-v8.10/crDroidAndroid-12.1-20221013-onclite-v8.10.zip) | [Changelog](https://github.com/WolfAURman/crdroid_ota_update/blob/master/changelog_onclite_7.x.txt) | [Flash step's list](https://telegra.ph/Flash-steps-Redmi-7-onclite-10-06)
+- [CrDroid 7.x](https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-11.0-20221012-onclite-v7.23/crDroidAndroid-11.0-20221012-onclite-v7.23.zip) | [Changelog](https://github.com/WolfAURman/crdroid_ota_update/blob/master/changelog_onclite_8.x.txt) | [Flash step's list](https://telegra.ph/Flash-steps-Redmi-7-onclite-10-06)
 
 ## Creating json ##
 
