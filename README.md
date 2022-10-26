@@ -1,10 +1,27 @@
-# Unoffcial CrDroid OTA update
+# Unoffcial CrDroid OTA update #
 
 > Fork from [CrDroid](https://github.com/crdroidandroid/android_vendor_crDroidOTA)
 
 ![crDroid-Custom-ROM-Logo](https://user-images.githubusercontent.com/93985232/170225142-a35db9ff-1427-4256-859c-14b255502c50.png)
 
 > You can find all updates, news and instructions in my [telegram channel](https://t.me/WolfAURmanRedmi9Builds)
+
+
+## List of all updates for all devices: ##
+
+> Daisy: 
+- [CrDroid 9.x](https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-13.0-20221024-daisy-v9.0/crDroidAndroid-13.0-20221024-daisy-v9.0.zip) | [Changelog](https://github.com/WolfAURman/crdroid_ota_update/blob/master/changelog_daisy_9.x.txt)
+- [CrDroid 8.x](https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-12.1-20221014-daisy-v8.10/crDroidAndroid-12.1-20221014-daisy-v8.10.zip) | [Changelog](https://github.com/WolfAURman/crdroid_ota_update/blob/master/changelog_daisy_8.x.txt)
+- [CrDroid 7.x](https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-11.0-20221023-daisy-v7.23/crDroidAndroid-11.0-20221023-daisy-v7.23.zip) | [Changelog](https://github.com/WolfAURman/crdroid_ota_update/blob/master/changelog_daisy_7.x.txt)
+
+> Lava:
+- [CrDroid 9.x](https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-13.0-20220925-lava-v9.0/crDroidAndroid-13.0-20220925-lava-v9.0.zip) | [Changelog](https://github.com/WolfAURman/crdroid_ota_update/blob/master/changelog_lava_9.x.txt)
+- [CrDroid 8.x](https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-12.1-20221018-lava-v8.10/crDroidAndroid-12.1-20221018-lava-v8.10.zip) | [Changelog](https://github.com/WolfAURman/crdroid_ota_update/blob/master/changelog_lava_8.x.txt)
+- [CrDroid 7.x](https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-11.0-20221018-lava-v7.23/crDroidAndroid-11.0-20221018-lava-v7.23.zip) | [Changelog](https://github.com/WolfAURman/crdroid_ota_update/blob/master/changelog_lava_7.x.txt)
+
+> Onclite
+- [CrDroid 8.x](https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-12.1-20221013-onclite-v8.10/crDroidAndroid-12.1-20221013-onclite-v8.10.zip) | [Changelog](https://github.com/WolfAURman/crdroid_ota_update/blob/master/changelog_onclite_7.x.txt)
+- [CrDroid 7.x](https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-11.0-20221012-onclite-v7.23/crDroidAndroid-11.0-20221012-onclite-v7.23.zip) | [Changelog](https://github.com/WolfAURman/crdroid_ota_update/blob/master/changelog_onclite_8.x.txt)
 
 ## Creating json ##
 
