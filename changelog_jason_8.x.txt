@@ -1,0 +1,15 @@
+Highlights & Device Specific Changes:
+Build type: Monthly
+Device: jason
+Device maintainer: Krel K. aka WolfAURman
+
+==
+Thank you very much rozenov!
+==
+
+===== 2.11.2022 =====
+- Initial build
+- Vanilla build
+- Used proton clang for build kernel
+- October security patch 2022
+- Synchronized with the latest sources
