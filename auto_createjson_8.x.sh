@@ -2,21 +2,21 @@
 
 #modify values below
 #leave blank if not used
-maintainer="Krell RHEL (WolfAURman)" #ex: Lup Gabriel (gwolfu)
+maintainer="Krell RHEL (WolfAURman)"
 ##
-here=$(pwd)
-device=$(ls $here/out/target/product) #ex: guacamole
-time=$(cat out/build_date.txt)
-zip=$(basename out/target/product/$device/crDroidAndroid-12.1-*-$device-*.zip)
-nozip=$(basename out/target/product/$device/crDroidAndroid-12.1-*-$device-*.zip .zip)
-date=$(echo $zip | cut -f3 -d '-')
+here=$(pwd)                                                                           # Here we get the location where the script is located
+device=$(ls $here/out/target/product)                                                 # Here we get the name of the device based on the name of the folder
+time=$(cat out/build_date.txt)                                                        # Here we get the build time
+zip=$(basename out/target/product/$device/crDroidAndroid-12.1-*-$device-*.zip)        # Here we get the package name with the extension .zip
+nozip=$(basename out/target/product/$device/crDroidAndroid-12.1-*-$device-*.zip .zip) # Here we get the package name without the extension .zip
+date=$(echo $zip | cut -f3 -d '-')                                                    # Here we get the build date (in YYYY-MM-DD format)
 ##
   case "${device,,}" in 
 
-	"lava"    ) devicename="Redmi 9" && oem="Xiaomi"    ;;
-	"daisy"   ) devicename="Mi A2 Lite" && oem="Xiaomi" ;;
-	"jason"   ) devicename="Mi Note 3" && oem="Xiaomi"  ;;
-	"onclite" ) devicename="Redmi 7" && oem="Xiaomi"    ;;
+	"lava"    ) devicename="Redmi 9" && oem="Xiaomi"    ;;  #
+	"daisy"   ) devicename="Mi A2 Lite" && oem="Xiaomi" ;;  # This is where the necessary information is assigned to the desired variable
+	"jason"   ) devicename="Mi Note 3" && oem="Xiaomi"  ;;  # This allows you not to change the script for each device separately
+	"onclite" ) devicename="Redmi 7" && oem="Xiaomi"    ;;  #
 
 	esac
 ##
