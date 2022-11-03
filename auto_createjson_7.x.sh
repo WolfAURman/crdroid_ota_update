@@ -13,10 +13,10 @@ date=$(echo $zip | cut -f3 -d '-')
 ##
   case "${device,,}" in 
 
-	"lava"    ) devicename="Redmi 9" && oem="Xiaomi";;
-	"daisy"   ) devicename="Mi A2 Lite" && oem="Xiaomi";;
-	"jason"   ) devicename="Mi Note 3" && oem="Xiaomi";;
-	"onclite" ) devicename="Redmi 7" && oem="Xiaomi";;
+	"lava"    ) devicename="Redmi 9" && oem="Xiaomi"    ;;
+	"daisy"   ) devicename="Mi A2 Lite" && oem="Xiaomi" ;;
+	"jason"   ) devicename="Mi Note 3" && oem="Xiaomi"  ;;
+	"onclite" ) devicename="Redmi 7" && oem="Xiaomi"    ;;
 
 	esac
 ##
