@@ -5,9 +5,11 @@
 maintainer="Krell RHEL (WolfAURman)" #ex: Lup Gabriel (gwolfu)
 ##
 here=$(pwd)
-time=$(cat out/build_date.txt)
-date=$(echo $zip | cut -f3 -d '-')
 device=$(ls $here/out/target/product) #ex: guacamole
+time=$(cat out/build_date.txt)
+zip=$(basename out/target/product/$device/crDroidAndroid-11.0-*-$device-*.zip)
+nozip=$(basename out/target/product/$device/crDroidAndroid-11.0-*-$device-*.zip .zip)
+date=$(echo $zip | cut -f3 -d '-')
 ##
   case "${device,,}" in 
 
@@ -20,9 +22,6 @@ device=$(ls $here/out/target/product) #ex: guacamole
 ##
 #oem="Xiaomi" #ex: OnePlus
 #devicename="Redmi 9" #ex: OnePlus 7 Pro
-##
-zip=$(basename out/target/product/$device/crDroidAndroid-11.0-*-$device-*.zip)
-nozip=$(basename out/target/product/$device/crDroidAndroid-11.0-*-$device-*.zip .zip)
 ##
 buildtype="Monthly" #choose from Testing/Alpha/Beta/Weekly/Monthly
 forum="https://t.me/WolfAURman_Discussion" #https link (mandatory)
