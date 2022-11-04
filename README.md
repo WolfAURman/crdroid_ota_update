@@ -20,8 +20,8 @@
 - [CrDroid 7.x](https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-11.0-20221018-lava-v7.23/crDroidAndroid-11.0-20221018-lava-v7.23.zip) | [Changelog](https://github.com/WolfAURman/crdroid_ota_update/blob/master/changelogs/changelog_lava_7.x.txt) | [Flash step's list](https://telegra.ph/Flash-steps-Redmi-9-lava-07-14)
 
 > Onclite
-- [CrDroid 8.x](https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-12.1-20221013-onclite-v8.10/crDroidAndroid-12.1-20221013-onclite-v8.10.zip) | [Changelog](https://github.com/WolfAURman/crdroid_ota_update/blob/changelogs/master/changelog_onclite_7.x.txt) | [Flash step's list](https://telegra.ph/Flash-steps-Redmi-7-onclite-10-06)
-- [CrDroid 7.x](https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-11.0-20221012-onclite-v7.23/crDroidAndroid-11.0-20221012-onclite-v7.23.zip) | [Changelog](https://github.com/WolfAURman/crdroid_ota_update/blob/changelogs/master/changelog_onclite_8.x.txt) | [Flash step's list](https://telegra.ph/Flash-steps-Redmi-7-onclite-10-06)
+- [CrDroid 8.x](https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-12.1-20221013-onclite-v8.10/crDroidAndroid-12.1-20221013-onclite-v8.10.zip) | [Changelog](https://github.com/WolfAURman/crdroid_ota_update/blob/master/changelogs/changelog_onclite_7.x.txt) | [Flash step's list](https://telegra.ph/Flash-steps-Redmi-7-onclite-10-06)
+- [CrDroid 7.x](https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-11.0-20221012-onclite-v7.23/crDroidAndroid-11.0-20221012-onclite-v7.23.zip) | [Changelog](https://github.com/WolfAURman/crdroid_ota_update/blob/master/changelogs/changelog_onclite_8.x.txt) | [Flash step's list](https://telegra.ph/Flash-steps-Redmi-7-onclite-10-06)
 
 ## Creating json ##
 
