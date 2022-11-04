@@ -38,6 +38,14 @@ After that, run it:
 
 Get the devicename output.json, mission accomplished!
 
-## automatic uploading using a script
+## Automatic uploading using a script
 
-copy the file ```auto_createjson_x.x.sh``` to your working source folder, make it executable ```chmod +x auto_createjson_x.x.sh``` and then run it ```./auto_createjson_x.x.sh```
+If you decide to use automatic loading, you will need to run the script `auto_createjson_x.x.sh` using source.
+
+Example: `source auto_createjson_8.x.sh`
+
+You will also need to change the row data:
+
+[The first line](https://github.com/WolfAURman/crdroid_ota_update/blob/0fd8617d1f645a192cb4dfd7fa8aed5bd8bf28c6/auto_createjson_8.x.sh#L3) | [Second line](https://github.com/WolfAURman/crdroid_ota_update/blob/0fd8617d1f645a192cb4dfd7fa8aed5bd8bf28c6/auto_createjson_8.x.sh#L4) | [The third line](https://github.com/WolfAURman/crdroid_ota_update/blob/0fd8617d1f645a192cb4dfd7fa8aed5bd8bf28c6/auto_createjson_8.x.sh#L75)
+
+The description of each line is present in the script.
