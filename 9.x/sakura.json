@@ -1,1 +1,28 @@
-#Initial support sakura
+{
+  "response": [
+    {
+        "maintainer": "Krell RHEL (WolfAURman)",
+        "oem": "Xiaomi",
+        "device": "Redmi 6 Pro",
+        "filename": "crDroidAndroid-13.0-20221107-sakura-v9.0.zip",
+        "download": "https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-13.0-20221107-sakura-v9.0/crDroidAndroid-13.0-20221107-sakura-v9.0.zip",
+        "timestamp": 1667817666,
+        "md5": "f2c010fa87d706ade1750f3ddc0369f5",
+        "sha256": "c5e0bd71fe95e8d7cca363a2e07ae86365cfa9db8c5f71509adc1a058b5203bf",
+        "size": 851824243,
+        "version": "9.0",
+        "buildtype": "Monthly",
+        "forum": "https://t.me/WolfAURman_Discussion",
+        "gapps": "https://sourceforge.net/projects/nikgapps/files/Releases/NikGapps-T/08-Sep-2022/NikGapps-core-arm64-13-20220908-signed.zip/download",
+        "firmware": "",
+        "modem": "",
+        "bootloader": "",
+        "recovery": "",
+        "paypal": "http://paypal.me/rozenov",
+        "telegram": "https://t.me/red_hat_interprise13",
+        "dt": "",
+        "common-dt": "",
+        "kernel": ""
+    }
+  ]
+}
