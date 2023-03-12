@@ -10,11 +10,12 @@ date=$(echo $zip | cut -f3 -d '-')                                              
 
   case "${device,,}" in 
 
-	"lava"    ) devicename="Redmi 9" && oem="Xiaomi"       ;;  #
-	"daisy"   ) devicename="Mi A2 Lite" && oem="Xiaomi"    ;;  # This is where the necessary information is assigned to the desired variable
-	"jason"   ) devicename="Mi Note 3" && oem="Xiaomi"     ;;  # This allows you not to change the script for each device separately
-	"onclite" ) devicename="Redmi 7" && oem="Xiaomi"       ;;  #
-	"sakura"  ) devicename="Redmi 6 Pro" && oem="Xiaomi"   ;;  #
+	"lava"         ) devicename="Redmi 9" && oem="Xiaomi"       ;;  #
+	"daisy"        ) devicename="Mi A2 Lite" && oem="Xiaomi"    ;;  # This is where the necessary information is assigned to the desired variable
+	"jason"        ) devicename="Mi Note 3" && oem="Xiaomi"     ;;  # This allows you not to change the script for each device separately
+	"onclite"      ) devicename="Redmi 7" && oem="Xiaomi"       ;;  #
+	"sakura"       ) devicename="Redmi 6 Pro" && oem="Xiaomi"   ;;  #
+  "poplar_dsds"  ) devicename="Xperia XZ1 Dual" && oem="Sony" ;;  #
 
 	esac
 
