@@ -21,7 +21,7 @@ date=$(echo $zip | cut -f3 -d '-')                                              
 
 buildtype="Monthly"                          # choose from Testing/Alpha/Beta/Weekly/Monthly
 forum="https://t.me/WolfAURman_Discussion"   # https link (mandatory)
-gapps="https://sourceforge.net/projects/nikgapps/files/Releases/NikGapps-T/08-Sep-2022/NikGapps-core-arm64-13-20220908-signed.zip/download" #https link (leave empty if unused)
+gapps="https://sourceforge.net/projects/nikgapps/files/Releases/NikGapps-T/11-Mar-2023/NikGapps-core-arm64-13-20230311-signed.zip/download" #https link (leave empty if unused)
 firmware=""                                  # https link (leave empty if unused)
 modem=""                                     # https link (leave empty if unused)
 bootloader=""                                # https link (leave empty if unused)
