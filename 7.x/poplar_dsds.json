@@ -1,1 +1,24 @@
-#Initial_file
+{
+  "response": [
+    {
+        "maintainer": "Krell RHEL (WolfAURman)",
+        "oem": "Sony",
+        "device": "Xperia XZ1 Dual",
+        "filename": "crDroidAndroid-11.0-20230312-poplar_dsds-v7.27.zip",
+        "download": "https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-11.0-20230312-poplar_dsds-v7.27/crDroidAndroid-11.0-20230312-poplar_dsds-v7.27.zip",
+        "timestamp": 1678636011,
+        "md5": "0eee4f9ec7c0f7bd11139829e4dd8e12",
+        "size": 860593870,
+        "version": "7.27",
+        "buildtype": "Monthly",
+        "forum": "https://t.me/WolfAURman_Discussion",
+        "gapps": "https://sourceforge.net/projects/nikgapps/files/Releases/NikGapps-R/11-Mar-2023/NikGapps-core-arm64-11-20230311-signed.zip/download",
+        "firmware": "",
+        "modem": "",
+        "bootloader": "",
+        "recovery": "",
+        "paypal": "http://paypal.me/rozenov",
+        "telegram": "https://t.me/red_hat_interprise13"
+    }
+  ]
+}
