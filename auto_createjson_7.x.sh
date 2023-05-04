@@ -1,7 +1,7 @@
 #!/bin/bash
 
 maintainer="Krell RHEL (WolfAURman)"                                                        # Here we get the name of maintainer
-path=~/android/crdroid7                                                                     # Here you will need to specify the path to the crDroid source code folder
+path=/run/media/users/android/locallava                                                                     # Here you will need to specify the path to the crDroid source code folder
 device=$(ls $path/out/target/product)                                                       # Here we get the name of the device based on the name of the folder
 time=$(cat $path/out/build_date.txt)                                                        # Here we get the build time
 zip=$(basename $path/out/target/product/$device/crDroidAndroid-11.0-*-$device-*.zip)        # Here we get the package name with the extension .zip
