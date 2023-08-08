@@ -1,1 +1,28 @@
-#Initial_file
+{
+  "response": [
+    {
+        "maintainer": "Krell RHEL (WolfAURman)",
+        "oem": "Xiaomi",
+        "device": "Redmi 7",
+        "filename": "crDroidAndroid-13.0-20230808-onclite-v9.7.zip",
+        "download": "https://github.com/WolfAURman/crdroid_ota_update/releases/download/crDroidAndroid-13.0-20230808-onclite-v9.7/crDroidAndroid-13.0-20230808-onclite-v9.7.zip",
+        "timestamp": 1691524716,
+        "md5": "bcee6b81de76b4db9c95170884c5ca1b",
+        "sha256": "c5d9fffbb4cb5a89edc283aa35f3d1ebc1cedabd05cb8c8229c56ca867546964",
+        "size": 1041130342,
+        "version": "9.7",
+        "buildtype": "Monthly",
+        "forum": "https://t.me/WolfAURman_Discussion",
+        "gapps": "https://sourceforge.net/projects/nikgapps/files/Releases/NikGapps-T/11-Mar-2023/NikGapps-core-arm64-13-20230311-signed.zip/download",
+        "firmware": "",
+        "modem": "",
+        "bootloader": "",
+        "recovery": "",
+        "paypal": "http://paypal.me/rozenov",
+        "telegram": "https://t.me/red_hat_interprise13",
+        "dt": "",
+        "common-dt": "",
+        "kernel": ""
+    }
+  ]
+}
