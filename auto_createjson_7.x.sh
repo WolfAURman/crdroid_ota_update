@@ -1,11 +1,11 @@
 #!/bin/bash
 
 maintainer="Krell RHEL (WolfAURman)"                                                        # Here we get the name of maintainer
-path=~/android/crdroid7                                                                     # Here you will need to specify the path to the crDroid source code folder
+#path=~/android/crdroid7                                                                     # Here you will need to specify the path to the crDroid source code folder
 device=$(ls $path/out/target/product)                                                       # Here we get the name of the device based on the name of the folder
 time=$(cat $path/out/build_date.txt)                                                        # Here we get the build time
-zip=$(basename $path/out/target/product/$device/crDroidAndroid-11.0-*-$device-*.zip)        # Here we get the package name with the extension .zip
-nozip=$(basename $path/out/target/product/$device/crDroidAndroid-11.0-*-$device-*.zip .zip) # Here we get the package name without the extension .zip
+zip=$(basename $path/out/target/product/$device/crDroidAndroid-11.0-*-$device-*-*.zip)        # Here we get the package name with the extension .zip
+nozip=$(basename $path/out/target/product/$device/crDroidAndroid-11.0-*-$device-*-*.zip .zip) # Here we get the package name without the extension .zip
 date=$(echo $zip | cut -f3 -d '-')                                                          # Here we get the build date (in YYYY-MM-DD format)
 
   case "${device,,}" in 
@@ -21,7 +21,7 @@ date=$(echo $zip | cut -f3 -d '-')                                              
 
 buildtype="Monthly"                          # choose from Testing/Alpha/Beta/Weekly/Monthly
 forum="https://t.me/WolfAURman_Discussion"   # https link (mandatory)
-gapps="https://sourceforge.net/projects/nikgapps/files/Releases/NikGapps-R/16-Jul-2023/NikGapps-core-arm64-11-20230716-signed.zip/download" #https link (leave empty if unused)
+gapps="https://sourceforge.net/projects/nikgapps/files/Releases/Android-11/19-Jul-2024/NikGapps-core-arm64-11-20240719-signed.zip/download" #https link (leave empty if unused)
 firmware=""                                  # https link (leave empty if unused)
 modem=""                                     # https link (leave empty if unused)
 bootloader=""                                # https link (leave empty if unused)
