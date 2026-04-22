@@ -5,8 +5,8 @@
 maintainer="Krell RHEL (WolfAURman)"                                                            # Here we get the name of maintainer
 device=$(ls $crpath/out/target/product)                                                         # Here we get the name of the device based on the name of the folder
 time=$(cat $crpath/out/build_date.txt)                                                          # Here we get the build time
-zip=$(basename $crpath/out/target/product/$device/crDroidAndroid-11.0-*-$device-*-*.zip)        # Here we get the package name with the extension .zip
-nozip=$(basename $crpath/out/target/product/$device/crDroidAndroid-11.0-*-$device-*-*.zip .zip) # Here we get the package name without the extension .zip
+zip=$(basename $crpath/out/target/product/$device/crDroidAndroid-11.0-*-$device-*.zip)          # Here we get the package name with the extension .zip
+nozip=$(basename $crpath/out/target/product/$device/crDroidAndroid-11.0-*-$device-*.zip .zip)   # Here we get the package name without the extension .zip
 date=$(echo $zip | cut -f3 -d '-')                                                              # Here we get the build date (in YYYY-MM-DD format)
 
   case "${device,,}" in 
